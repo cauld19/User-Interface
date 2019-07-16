@@ -70,11 +70,15 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 1000px;
 	margin: auto;
-	padding: 40px;
+	padding: 15px 40px 40px 40px;
 }
 
 header nav {
 	display: inline-block;
+	z-index: 10;
+    position: fixed;
+    background-color: cornflowerblue;
+    top: 0;
 }
 
 header nav a {
@@ -84,19 +88,32 @@ header nav a {
 	color: LightGray;
 }
 
-header img {
-	margin-bottom: -10px;
+header nav a:last-child {
+	margin: 0;
+}
+
+.logo-photo {
+	display: inline-block;
+	float: right;
+	background-image: url("../img/logo.png");
+	height: 40px;
+	width: 190px;
+	background-repeat: no-repeat;
 }
 
 /* cta */
 
 .cta {
+	margin-top: 40px;
 	margin-left: 70px;
 }
 
-.cta img {
+.cta-middle-image {
 	display: inline-block;
-    height: 400px;
+	background-image: url("../img/header-img.png");
+	height: 400px;
+	width: 400px;
+	background-repeat: no-repeat;
 	margin: 50px 0px 50px 100px;
 }
 
@@ -130,7 +147,7 @@ h1 {
 
 .main-content {
 
-	display: inline-block; width: 96%;  
+	display: inline-block; width: 100%;  
 	border-top: 1px solid black;
 }
 
@@ -154,8 +171,14 @@ h1 {
 	clear: none;
 }
 
-.middle-image {
-	width 96%;
+.middle-background-image {
+	background-image: url("../img/mid-page-accent.jpg");
+	height: 180px;
+	background-repeat: no-repeat;
+}
+
+.middle-img {
+	width: 920px;
 }
 
 /* bottom content */
@@ -163,7 +186,7 @@ h1 {
 .bottom-content {
 	display: inline-block;
 	margin-top: 40px;
-	width: 96%;
+	width: 100%;
 }
 
 .bottom-text {
@@ -190,7 +213,7 @@ h1 {
 .contact {
 	border-top: 1px solid black;
 	text-align: left;
-	width: 96%
+	width: 100%%
 }
 
 footer .contact h4 {
