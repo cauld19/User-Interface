@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Dosive', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -114,7 +114,7 @@ header nav a:last-child {
 	height: 400px;
 	width: 400px;
 	background-repeat: no-repeat;
-	margin: 50px 0px 50px 100px;
+	margin: 50px 0px 50px 60px;
 }
 
 h1 {
@@ -213,7 +213,7 @@ h1 {
 .contact {
 	border-top: 1px solid black;
 	text-align: left;
-	width: 100%%
+	width: 100%
 }
 
 footer .contact h4 {
