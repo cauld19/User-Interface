@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 1000px;
 	margin: auto;
-	padding: 15px 40px 40px 40px;
+	padding: 0.9375rem 2.5rem 2.5rem 2.5rem;
 }
 
 header nav {
@@ -82,7 +82,7 @@ header nav {
 }
 
 header nav a {
-	margin: 60px;
+	margin: 3.75rem;
 	margin-left: 0;
 	text-decoration: none;
 	color: LightGray;
@@ -96,7 +96,7 @@ header nav a:last-child {
 	display: inline-block;
 	float: right;
 	background-image: url("../img/logo.png");
-	height: 40px;
+	height: 2.5rem;
 	width: 190px;
 	background-repeat: no-repeat;
 }
@@ -104,43 +104,46 @@ header nav a:last-child {
 /* cta */
 
 .cta {
-	margin-top: 40px;
-	margin-left: 70px;
+	margin-top: 2.5rem;
+	margin-left: 4.375rem;
+	white-space: nowrap;
+}
+
+.cta-text {
+	vertical-align: 8rem;
+	width: 48%;
+	margin: 1%;
+	display: inline-block;
+	text-align: center;
 }
 
 .cta-middle-image {
 	display: inline-block;
 	background-image: url("../img/header-img.png");
-	height: 400px;
-	width: 400px;
+	height: 25rem;
+	width: 48%;
 	background-repeat: no-repeat;
-	margin: 50px 0px 50px 60px;
+	margin-top: 3.125rem;
+	margin-right: 1%;
+	margin-bottom: 3.125rem;
+	margin-left: 1%;
 }
 
 h1 {
-	font-size: 70px;
+	font-size: 4.375rem;
     text-align: center;
-    height: 330px;
-    margin-right: 30px
 }
 
 .cta-text button {
-	display: block;
+	display: inline;
 	margin: 0 auto;
 	position: relative;
-	top: -8rem;
-    left: -1rem;
-	height: 30px;
-    width: 130px;
+	height: 1.875rem;
+    width: 8.125;
     background-color: white;
     border: 1px solid;
     color: black;
     font-family: inherit;
-}
-
-.cta-text {
-	display: inline-block;
-	text-align: center;
 }
 
 /* main content */
@@ -153,27 +156,25 @@ h1 {
 
 .top-text{
 	display: inline-block;
-	margin-bottom: 40px;
-	margin-top: 40px;
+	margin-bottom: 2.5rem;
+	margin-top: 2.5rem;
 }
 
 .features {
 	display: inline-block;
 	width: 50%;
 	float: left;
-	clear: none;
 }
 
 .about {
 	display: inline-block;
 	width: 50%;
 	float: left;
-	clear: none;
 }
 
 .middle-background-image {
 	background-image: url("../img/mid-page-accent.jpg");
-	height: 180px;
+	height: 11.25rem;
 	background-repeat: no-repeat;
 }
 
@@ -185,13 +186,13 @@ h1 {
 
 .bottom-content {
 	display: inline-block;
-	margin-top: 40px;
+	margin-top: 2.5rem;
 	width: 100%;
 }
 
 .bottom-text {
 	display: inline-block;
-	margin-bottom: 40px;
+	margin-bottom: 2.5rem;
 }
 
 .services {
@@ -217,12 +218,12 @@ h1 {
 }
 
 footer .contact h4 {
-	margin-top: 40px;
+	margin-top: 2.5rem;
 }
 
 .copyright {
 	text-align: center;
 	font-family: arial;
-	font-size: 12px;
-	margin-top: 40px;
+	font-size: 0.75rem;
+	margin-top: 2.5rem;
 }
